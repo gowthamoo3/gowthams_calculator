@@ -1,0 +1,50 @@
+<!doctype html>
+<head>
+     <title> Gowtham's calculator </title>
+     <script type="text/javascript" src="main.js"></script>
+     <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+     <h1> Gowtham's calculator </h1>
+     <div class="container">
+       <input type="text" id="caldisplay" placeholder="0" autofocus >
+       <div class="keypad">
+       <tr>
+            <td> <button onclick="appendString('7')">7</button> <td>
+               <td> <button onclick="appendString('8')">8</button> <td>
+                    <td> <button onclick="appendString('9')">9</button> <td>
+                         <td> <button onclick="clearKeys()">C</button> <td>
+       </tr>
+       <br>
+       <br>
+       <tr>
+          <td> <button onclick="appendString('4')">4</button> <td>
+             <td> <button onclick="appendString('5')">5</button> <td>
+                  <td> <button onclick="appendString('6')">6</button> <td>
+                       <td> <button onclick="appendString('+')">+</button> <td>
+     </tr>
+     <br>
+     <br>
+     <tr>
+          <td> <button onclick="appendString('1')">1</button> <td>
+             <td> <button onclick="appendString('2')">2</button> <td>
+                  <td> <button onclick="appendString('3')">3</button> <td>
+                       <td> <button onclick="appendString('-')">-</button> <td>
+     </tr>
+     <br>
+     <br>
+     <tr>
+          <td> <button onclick="appendString('(')">(</button> <td>
+             <td> <button onclick="appendString('0')">0</button> <td>
+                  <td> <button onclick="appendString(')')">)</button> <td>
+                       <td> <button onclick="appendString('/')">/</button> <td>
+     </tr>
+     <br>
+     <br>
+     <tr>
+          <td> <button onclick="appendString(' ')" class="resultBtn" >Space</button> <td>
+               <td> <button onclick="getResult()" >=</button> <td>
+     </tr>
+</div>
+</div>
+</body>

@@ -1,0 +1,60 @@
+body
+{
+background-color:black;
+}
+
+#caldisplay
+{
+    height: 40px;
+    width: 210px;
+    margin-left: 5px;
+    border-radius: 15px;
+    background-color: #A8C64E;
+    border: 2px black solid;
+    font-size:25px;
+    text-align:right;
+    font-family:'digital-clock-font'
+}
+
+button
+{
+height:35px;
+width:35px;
+font-size:25px;
+margin-right:3px;
+margin-left:3px;
+}
+
+h1{
+color:white;
+margin:auto;
+text-align:center;
+margin-top:10%;
+font-family:"copperplate";
+font-size:35px;
+}
+.resultBtn
+{
+height:35px;
+width:125px;
+}
+
+.container
+{
+margin: auto;
+margin-top:1%;
+height:320px;
+width:230px;
+border: 2px white solid;
+padding:5px;
+background-color:#3C412C;
+}
+
+.keypad
+{
+padding-top:12px;
+padding-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+text-align:center;
+}
